@@ -96,7 +96,11 @@ Ce projet est sous licence MIT.
 
 
 
-English Version 
+------------------------------------------------------------------------------------------------------------------
+
+
+
+***English Version***
 
 
 # Customer segmentation with K-Means
