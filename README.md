@@ -58,6 +58,8 @@ Nous avons identifié **5 groupes de clients distincts** :
 Voici les visualisations des graphiques obtenus :
 ![Scatterplot-clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/Scatterplot-clustering.png?raw=true)
 ![boxplot_clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/boxplot_clustering.png?raw=true)
+Voici le rapport final : 
+[Consultez le rapport final ici](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/RAPPORT_FINAL.md)
 
 
 ## 🎯 Applications Business
@@ -163,7 +165,8 @@ We have identified **5 distinct customer clusters**:
 Here are the visualizations of the graphs obtained:
 ![Scatterplot-clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/Scatterplot-clustering.png?raw=true)
 ![boxplot_clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/boxplot_clustering.png?raw=true)
-
+Voici le rapport final : 
+[Check the final report](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/RAPPORT_FINAL.md)
 
 ## 🎯 Business Applications
 Thanks to this segmentation, several marketing strategies can be implemented:
