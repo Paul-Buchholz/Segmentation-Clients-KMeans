@@ -94,3 +94,103 @@ Ce projet est sous licence MIT.
 ---
 💡 *N'hésitez pas à contribuer et à partager vos améliorations !*
 
+
+
+English Version 
+
+
+# Customer segmentation with K-Means
+
+## 📌 Presentation
+This project aims to analyze and segment customers based on their purchasing behavior and demographic characteristics. We use **the K-Means algorithm** to identify groups of customers with similar profiles, allowing us to optimize marketing strategies and improve our understanding of purchasing trends.
+
+## 📂 Repository content
+- **Mall_Customers.csv**: Dataset used for analysis.
+- **Segmentation_Client.ipynb**: Jupyter notebook containing analysis, segmentation and visualizations.
+- **requirements.txt** : List of dependencies required to run the project.
+- **README.md** : Project documentation.
+
+## 📊 Data used
+The dataset includes the following columns:
+- **CustomerID**: Customer's unique identifier.
+- **Gender**: Customer's gender (Male/Female)
+- **Age**: Customer's age
+- **Annual Income (k$)**: Customer's annual income in thousands of dollars
+- **Spending Score (1-100)** : Spending score assigned by the store (based on buying behavior and loyalty)
+
+## 🔍 Methodology
+1. **Data pre-processing**: Cleaning, management of missing values, normalization if necessary.
+2. **Data exploration**: Statistical analysis and visualization of distributions.
+3. **Application of K-Means**: Determination of the optimal number of clusters (elbow and silhouette methods) and execution of the algorithm.
+4. **Cluster analysis**: Interpretation of results and visualization of clusters.
+
+## 📌 Customer segmentation
+We have identified **5 distinct customer clusters**:
+
+### 1️⃣ Cluster 0 (Violet):
+- Very wide age dispersion, from under 20 to over 70.
+- Median around 45.
+- Cluster with greatest age diversity.
+
+### 2️⃣ Cluster 1 (Dark Blue):
+- Young adults (~25-40 years).
+- Less dispersed than Cluster 0.
+- Median around 35.
+
+### 3️⃣ Cluster 2 (Light blue):
+- Very young population, mostly under 30.
+- Low dispersion, well concentrated around 20.
+- Median around 25.
+
+### 4️⃣ Cluster 3 (dark green):
+- Mainly people around 40-50 years old.
+- Moderate dispersion (20-60 years).
+- Slight male dominance in this cluster.
+
+### 5️⃣ Cluster 4 (Light green):
+- Predominantly older population (~45-50 years).
+- Very wide dispersion (under 20 to over 70).
+- Median slightly higher than Cluster 0.
+
+
+
+## 📊 Segmentation results
+
+Here are the visualizations of the graphs obtained:
+![Scatterplot-clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/Scatterplot-clustering.png?raw=true)
+![boxplot_clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/boxplot_clustering.png?raw=true)
+
+
+## 🎯 Business Applications
+Thanks to this segmentation, several marketing strategies can be implemented:
+- **Personalization of offers**: tailor promotions and services to the customer's profile.
+- **Optimized advertising targeting**: Better target campaigns to the most profitable segments.
+- **Customer loyalty**: Create programs adapted to each type of consumer.
+- **Enhanced customer experience**: Offer services that are more relevant and better adapted to consumer expectations.
+
+## 🚀 Installation and operation
+1. Clone the project :
+   ```bash
+   git clone https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans.git
+   cd Segmentation-Clients-KMeans
+   ```
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open and run the notebook:
+   ```bash
+   jupyter notebook Segmentation_Client.ipynb
+   ```
+
+## 🛠 Technologies used
+- **Python**
+- **Pandas, NumPy** (Data manipulation)
+- **Matplotlib, Seaborn** (Data visualization)
+- **Scikit-learn** (Modeling and K-Means clustering)
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+💡 *Feel free to contribute and share your improvements!*
