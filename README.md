@@ -51,6 +51,15 @@ Nous avons identifié **5 groupes de clients distincts** :
 - Très grande dispersion (moins de 20 ans à plus de 70 ans).
 - Médiane légèrement plus élevée que celle du Cluster 0.
 
+
+
+## 📊 Résultats de la segmentation
+
+Voici les visualisations des graphiques obtenus :
+![Scatterplot-clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/Scatterplot-clustering.png?raw=true)
+![boxplot_clustering](https://github.com/Paul-Buchholz/Segmentation-Clients-KMeans/blob/main/images/boxplot_clustering.png?raw=true)
+
+
 ## 🎯 Applications Business
 Grâce à cette segmentation, plusieurs stratégies marketing peuvent être mises en place :
 - **Personnalisation des offres** : Adapter les promotions et les services en fonction du profil du client.
